@@ -1,4 +1,5 @@
-
+package easy
+import easy.TwoSum
 import org.junit.Assert.*
 import org.junit.Test
 
