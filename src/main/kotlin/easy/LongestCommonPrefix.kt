@@ -6,6 +6,6 @@ class LongestCommonPrefix {
         strs.forEach {
             commonPrefix = it.commonPrefixWith(commonPrefix)
         }
-        return return commonPrefix
+        return commonPrefix
     }
 }
