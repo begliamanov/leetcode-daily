@@ -1,0 +1,10 @@
+/.idea/.gitignore
+/.idea/kotlinc.xml
+/.idea/libraries/KotlinJavaRuntime.xml
+/leetcode-daily.iml
+/out/test/leetcode-daily/META-INF/leetcode-daily.kotlin_module
+/out/production/leetcode-daily/META-INF/leetcode-daily.kotlin_module
+/.idea/misc.xml
+/.idea/modules.xml
+/.idea/uiDesigner.xml
+/.idea/vcs.xml
