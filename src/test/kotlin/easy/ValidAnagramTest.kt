@@ -2,7 +2,7 @@ package easy
 
 
 import junit.framework.TestCase.assertEquals
-import org.junit.Test
+import org.junit.jupiter.api.Assertions
 import org.junit.jupiter.params.ParameterizedTest
 import org.junit.jupiter.params.provider.CsvSource
 
@@ -20,6 +20,6 @@ class ValidAnagramTest {
         "'aabbcc', 'aabbc', false"
     )
     fun testAnagrams(a: String, b: String, expected: Boolean) {
-        assertEquals(expected, validAnagram.validateAnagram(a to b))
+        Assertions.assertEquals(expected, validAnagram.validateAnagram(a to b))
     }
 }

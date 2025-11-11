@@ -1,7 +1,5 @@
 package easy
 
-import kotlin.text.forEach
-
 class ValidAnagram {
     fun validateAnagram(pair: Pair<String, String>) : Boolean {
         return pair.first.cleaned().splitIntoMap() == pair.second.cleaned().splitIntoMap()
