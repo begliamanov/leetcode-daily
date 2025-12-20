@@ -1,4 +1,4 @@
-package leetcode75.array_or_string
+package leetcode75.array_or_string.easy
 
 /**
  * ## Merge String Alternately
